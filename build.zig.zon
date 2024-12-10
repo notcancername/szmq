@@ -1,0 +1,16 @@
+.{
+    .name = "szmq",
+    .version = "0.0.1",
+    .dependencies = .{
+        .zlzmq = .{
+            .url = "git+https://github.com/notcancername/zlzmq?ref=master#5f6398be98a46a949ef5276ff431c28c01e363a5",
+            .hash = "1220ae1162034431666854e3ab6e29b80effe8044c2c67622ee05963341cedb8e0e5",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "szmq.zig",
+    },
+}
